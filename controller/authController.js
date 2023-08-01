@@ -84,7 +84,8 @@ module.exports.forgetpassword=async function (req,res){
             const resetToken=await user.createResetToken();
             console.log("resetToken",resetToken)
             // let resetPasswordLink=`${req.protocol}://${req.get("host")}/user/resetpassword/${resetToken}`;
-            let resetPasswordLink=`${req.protocol}://localhost:3000/user/resetpassword/${resetToken}`;
+            let resetPasswordLink=`${req.protocol}://64c963c36883fd0c3a97b275--soft-pixie-e3d804.netlify.app/user/resetpassword/${resetToken}`;
+            // https://64c963c36883fd0c3a97b275--soft-pixie-e3d804.netlify.app/
             await sendMail("forgetpassword",{email,resetPasswordLink});
             
       res.json({
