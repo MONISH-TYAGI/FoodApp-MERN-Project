@@ -33,7 +33,7 @@ module.exports.createSession=async function(req,res)
                 }
             ],
             mode:"payment",
-            success_url:`${req.protocol}://localhost:3000`,
+            success_url:`${req.protocol}://:3000`,
             cancel_url:`${req.protocol}://${req.get("host")}/profile`,
         })  
         res.redirect(303, session.url);
