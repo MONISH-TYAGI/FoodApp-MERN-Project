@@ -34,6 +34,10 @@
     * Buy Now Button
     * Reviews  
 ## Backend Architecture:  MVC architecture, REST API
+:writing_hand: CRUD Operations
+:closed_lock_with_key: JWT Authentication
+:dollar: Stripe Payment Integration
+:rocket: Deployment 
 ## Database : MongoDb,Mongoose
 ## Authentication : Json web token 
 ## 3rd party : 
@@ -48,19 +52,20 @@
     * Database server : MongoDB Atlas 
 * Futher improvement : videos, feedback ,meal level  
 
-## Home Page 
+## Images
 
-<img align="center" alt="GIF" src="./images/Home%20Page.png" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/SignupImg.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/SignUpEmail.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/ResetPasswordEmail.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/profileImg.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/plansImg.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/Home3.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/Home2.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/Home1.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/forgetpassPage.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/contactpageImg.jpg" width="100%" height="320" />
+<img align="center" alt="GIF" src="./images/Buy Items confirmation Email.jpg" width="100%" height="320" />
 
 
-## Plans
-<img align="center" alt="GIF" src="./images/Plans.png" width="100%" height="320" />
 
-## Login
-<img align="center" alt="GIF" src="./images/Login.png" width="100%" height="320" />
 
-## SignUp
-<img align="center" alt="GIF" src="./images/SignUp.png" width="100%" height="320" />
-
-## Forget Password
-<img align="center" alt="GIF" src="./images/F.png" width="100%" height="320" />
