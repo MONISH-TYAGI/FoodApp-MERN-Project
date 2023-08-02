@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const { protectRoute }=require('../helper')
 const { createSession }=require('../controller/bookingController');
 const path = require('path');
+const  { sendMail }  = require('../utility/nodemailer');
+const sharedState = require("../controller/idx");
 // const app=express()
 bookingRouter.use(express.static("public")); 
 // app.use(bodyParser.urlencoded({ extended: true }));

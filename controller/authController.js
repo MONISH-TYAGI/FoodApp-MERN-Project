@@ -4,6 +4,7 @@ const {JWT_KEY}=require("../secrets");
 
 // const {use }=require("../Routers/userRouter");
 const { sendMail } = require("../utility/nodemailer");
+const sharedState = require("./idx");
 console.log("1234",JWT_KEY)
 
 
@@ -41,6 +42,7 @@ module.exports.login=async function(req,res)
 {
     try{
         let {email,password}=req.body;
+        sharedState.email = email;
         let user= await userModel.findOne({email:email});
         if(user)
         {
@@ -83,8 +85,8 @@ module.exports.forgetpassword=async function (req,res){
         {
             const resetToken=await user.createResetToken();
             console.log("resetToken",resetToken)
-            // let resetPasswordLink=`${req.protocol}://${req.get("host")}/user/resetpassword/${resetToken}`;
-            let resetPasswordLink=`${req.protocol}://64c963c36883fd0c3a97b275--soft-pixie-e3d804.netlify.app/user/resetpassword/${resetToken}`;
+            let resetPasswordLink=`${req.protocol}://localhost:3000/user/resetpassword/${resetToken}`;
+            // let resetPasswordLink=`${req.protocol}://64c963c36883fd0c3a97b275--soft-pixie-e3d804.netlify.app/user/resetpassword/${resetToken}`;
             // https://64c963c36883fd0c3a97b275--soft-pixie-e3d804.netlify.app/
             await sendMail("forgetpassword",{email,resetPasswordLink});
             

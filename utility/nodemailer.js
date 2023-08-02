@@ -30,6 +30,13 @@ if(str=="signup"){
     `<h1>foodApp.com</h1>
     Here is your link to reset password :${data.resetPasswordLink}
     `;
+}else if(str=="mealPlanBuy")
+{
+  eSubj=  `Meal Plan Bought`;
+  eHtml=
+  `<h1>foodApp.com</h1>
+  Congrats.You have brough a meal plan. Here's your details: Psuedo Data
+  `;
 }
   let info = await transporter.sendMail({
     from: '"FoodApp 🥗"  <tyagimonish5770@gmail.com>', // sender address

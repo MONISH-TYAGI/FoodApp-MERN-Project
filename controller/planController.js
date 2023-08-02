@@ -35,6 +35,7 @@ module.exports.getPlan=async function(req,res){
         let plan=await planModel.findById(id);
         console.log("plan here sir->",plan)
         sharedState.x = plan.price;
+        sharedState.name = plan.name;
         if(plan)
         {
             return res.json({
