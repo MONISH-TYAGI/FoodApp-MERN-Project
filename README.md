@@ -20,6 +20,7 @@
   * Signup Page
   * Forget Password
   * ResetPassword Page
+  * Email support
   * Profile Page
       * user details : Email ,Name,img
       * Booked Plans
