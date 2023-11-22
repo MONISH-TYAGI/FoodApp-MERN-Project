@@ -1,5 +1,18 @@
 # Food App MERN Project
+## Images
 
+<img align="center" alt="GIF" src="./images/SignupImg.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/SignUpEmail.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/profileImg.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/plansImg.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/paymentImg.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/Home3.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/Home2.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/Home1.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/forgetpassPage.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/ResetPasswordEmail.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/contactpageImg.jpg" width="100%" height="350" />
+<img align="center" alt="GIF" src="./images/Buy Items confirmation Email.jpg" width="100%" height="350" />
 
 
 ## Technology 👇
@@ -53,20 +66,7 @@
     * Database server : MongoDB Atlas 
 * Futher improvement : videos, feedback ,meal level  
 
-## Images
 
-<img align="center" alt="GIF" src="./images/SignupImg.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/SignUpEmail.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/profileImg.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/plansImg.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/paymentImg.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/Home3.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/Home2.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/Home1.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/forgetpassPage.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/ResetPasswordEmail.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/contactpageImg.jpg" width="100%" height="350" />
-<img align="center" alt="GIF" src="./images/Buy Items confirmation Email.jpg" width="100%" height="350" />
 
 
 
